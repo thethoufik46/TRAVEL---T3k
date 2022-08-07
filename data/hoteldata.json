@@ -1,0 +1,159 @@
+[
+    {
+    "id":1,
+    "name":"Park Regis Kris Kin Hotel",       
+    "area":"Dubai",
+    "checkin":"3 Feb 2022",   
+    "checkout":"4 Feb 2022",         
+    "category_id":4,
+    "cityid":1,
+    "rooms":1,
+    "guests":2,
+    "price":"₹. 6034",
+    "rating":"4.5/5",
+    "tag":"couple friendly, Dubai Assured",
+    "desc":"Visit attractions and popular malls via ADCB metro station (1.5 km).Relax at the hotel's rooftop pool with stunning skyline views, sauna, hot tub and Jacuzzi.Savour Indian delicacies at the on-site Masala Bazaar restaurant.",
+    "location":"An upscale property in Bur Dubai, Park Regis Kris Kin Hotel offers luxurious stays opposite Burjuman Mall and Burjuman Metro Station!",
+    "savings":"₹1872",
+    "isRefundable":"",
+    "image":"https://i.ibb.co/y59w44H/Dubai-Park-regis.jpg",
+    "image_gallery":[
+        "https://i.ibb.co/YtbGfck/park-regis-kris-kin-hotel-Dubai.jpg",
+        "https://i.ibb.co/0DMW8Fh/park-regis-kris-kin-hotel1-Dubai.jpg"
+            ],
+    "rooms_category":[
+        {
+            "room_id":6,
+            "room_type":"Superior Room - Twin Beds",
+            "breakfast_availability":"Room only",
+            "price":"₹4771"
+
+        },
+        {
+            "room_id":7,
+            "room_type":"Superior Room - Double Bed",
+            "breakfast_availability":"Room with breakfast",
+            "price":"₹8019"
+
+        }
+    ]
+},
+{
+    "id":2,
+    "name":"Fortune Grand Hotel",       
+    "area":"Dubai",
+    "checkin":"3 Feb 2022",   
+    "checkout":"4 Feb 2022",         
+    "category_id":4,
+    "cityid":1,
+    "rooms":1,
+    "guests":2,
+    "price":"Rs. 3426",
+    "rating":"3.5/5",
+    "tag":"",
+    "desc":"It has a pool, hot tub and a nightclub for a fun-filled holiday.The hotel lies within 5 km of Dubai International Airport.The hotel’s multilingual staff is fluent in Hindi and Malayalam. Enjoy Indian food at in-house restaurants Padheyam, Ragini, and Sa Re Ga Ma.",
+    "location":"Located on Omar Bin Khattab Road, Fortune Grand Hotel offers wellness facilities and comfortable stays.",
+    "savings":"₹1129",
+    "isRefundable":"Non-refundable",
+    "image":"https://i.ibb.co/ZMgyHYx/fortune-grand-hotel-Dubai1.png",
+    "image_gallery":[
+        "https://i.ibb.co/ZMgyHYx/fortune-grand-hotel-Dubai1.png",
+        "https://i.ibb.co/hmmS2CW/fortune-grand-hotel-Dubai.jpg",
+        "https://i.ibb.co/D7vDzb1/fortune-grand-hotel-dubai2.jpg"
+    ],
+    "rooms_category":[
+        {
+            "room_id":8,
+            "room_type":"Standard King/Twin Room Online",
+            "breakfast_availability":"Room only",
+            "price":"₹3426"
+        },
+        {
+            "room_id":9,
+            "room_type":"Standard King/ twin Room Exclusive",
+            "breakfast_availability":"Room with breakfast",
+            "price":"₹3949"
+        }
+    ]
+},
+{
+    "id":3,
+    "name":"Phoenix Park Inn by Radisson",       
+    "area":"Goa",
+    "checkin":"3 Feb 2022",   
+    "checkout":"4 Feb 2022",         
+    "category_id":4,
+    "cityid":20,
+    "rooms":1,
+    "guests":4,
+    "price":"Rs. 4771",
+    "rating":"3.9/5",
+    "tag":"Resort",
+    "desc":"Take a refreshing dip in the outdoor swimming pool.Start your day with a refreshing workout session at the on-site fitness centre featuring state-of-the-art equipment.Satiate your palate with regional Goan dishes and mouth-watering international cuisines at the on-site restaurant, Chapora.",
+    "location":"Lavish rooms, multiple dining spots, an outdoor swimming pool and a host of amenities await you for a delightful stay at this luxurious property.",
+    "isRefundable":"",
+    "image":"https://i.ibb.co/7jTSz7x/Phoenix-park-inn.jpg",
+    "image_gallery":[
+        "https://i.ibb.co/7jTSz7x/Phoenix-park-inn.jpg",
+        "https://i.ibb.co/ypVTfzL/Phoenix-park-inn-Goa.jpg",
+        "https://i.ibb.co/ypVTfzL/Phoenix-park-inn-Goa.jpg"
+
+    ],
+    "rooms_category":[
+        {
+            "room_id":1,
+            "room_type":"premium",
+            "breakfast_availability":"Room with breakfast",
+            "price":"₹4771"
+        },
+        {
+            "room_id":2,
+            "room_type":"premiur Queen Room",
+            "breakfast_availability":"Room only",
+            "price":"₹5191"
+        },
+        {
+            "room_id":3,
+            "room_type":"Deluxe Room",
+            "breakfast_availability":"Room with breakfast",
+            "price":"₹5332"
+        }
+    ]
+},
+{
+    "id":4,
+    "name":"Vivanta Goa, Panaji",       
+    "area":"Goa",
+    "checkin":"3 Feb 2022",   
+    "checkout":"4 Feb 2022",         
+    "category_id":4,
+    "cityid":20,
+    "rooms":1,
+    "guests":4,
+    "price":"₹ 7409",
+    "rating":"4.6/5",
+    "tag":"Resort",
+    "desc":"Features a full-service spa and a rooftop swimming pool for complete rejuvenation.Received the certification of “ISO 22K” for its quality food services.Arranges a romantic rooftop dinner with a 5-course gourmet meal and a fairytale setting.Houses award-winning restaurants serving exotic global flavours and handcrafted beverages.",
+    "location":"An epitome of excellence and luxury, Vivanta Goa delivers a fine blend of contemporary accommodation and state-of-the-art facilities.",
+    "isRefundable":"",
+    "image":"https://i.ibb.co/Z6HRQLF/vivanta-goa-thumb.jpg",
+    "image_gallery":[
+        "https://i.ibb.co/Z6HRQLF/vivanta-goa-thumb.jpg",
+        "https://i.ibb.co/ZVnV4DW/Vivanta-goa.jpg",
+        "https://i.ibb.co/9WZZWN5/Vivanta-goa1.jpg"
+    ],
+    "rooms_category":[
+        {
+            "room_id":4,
+            "room_type":"Superior Charm City View Twin Bed",
+            "breakfast_availability":"Room only",
+            "price":"₹5400"
+        },
+        {
+            "room_id":5,
+            "room_type":"Dulexe Delight City View Twin Bed",
+            "breakfast_availability":"Room with breakfast",
+            "price":"₹6300"
+        }
+    ]
+}]

@@ -1,0 +1,335 @@
+[
+    {
+    "id":1,
+    "name":"A Scenic trip to Ooty from Bangalore",
+    "duration":"3N/4D",
+    "from":"New Delhi",
+    "to":"Ooty",       
+    "category_id":5,
+    "cityid":14,
+    "class":"Premium",
+    "guests":"ADULTS",        
+    "depart":"Mon, Mar 14,2022",
+    "return":"",
+    "price":"₹19,499",
+    "departtime":"5:35, 14 Mar",
+    "returntime":"19:05, 14 Mar",
+    "hours":"2 hrs 30 min",
+    "travel_mode":"2 Flights",
+    "desc":"People in love, join a road trip to Ooty! Walk up to the highest peak of the Nilgiri mountains! Visit the Ooty Botanical Gardens for a blissful time.",
+    "Day plan":[
+        {
+            "day_1":"14 Mar,Mon",
+            "day_2":"15 Mar,Tue",
+            "day_3":"16 Mar,Wed",
+            "day_4":"17 Mar,Thur"
+        }            
+    ],
+    "Stay":[
+    {
+    "Hotel" :"Deccan Park Resort",
+    "room_type":"Deluxe room",
+    "ammenites":"BreakFast included"
+    
+    }
+            ],
+    "Road_type":[
+        {
+        "name":"Etios, Swift"
+        }
+    ]  ,      
+    "Activity":"Sightseeing in Ooty: Doddabetta Peak, Sim's Park, Dolphin's Nose, Botanical Grrdens, Ooty Lake",
+    "Images":[
+       "https://i.ibb.co/GQbBcWX/Ooty-holiday.jpg",
+       "https://i.ibb.co/25C0m7P/Ooty-holiday1.png",
+       "https://i.ibb.co/vmNTG23/Ooty-holiday2.png"
+    ]
+},
+{
+    "id":2,
+    "name":"A Scenic trip to Ooty and Coorg from Bangalore",
+    "duration":"3N/4D",
+    "from":"Bangalore",
+    "to":"Ooty",       
+    "category_id":5,
+    "cityid":14,
+    "class":"Premium",
+    "guests":"2 ADULTS, 2 children",        
+    "depart":"Mon, Mar 14,2022",
+    "return":"",
+    "price":"₹25,499",
+    "departtime":"5:35, 14 Mar",
+    "returntime":"19:05, 14 Mar",
+    "hours":"2 hrs 30 min",
+    "travel_mode":"2 Flights",
+    "desc":"People in love, join a road trip to Ooty and coorg! Walk up to the highest peak of the Nilgiri mountains and explore cofee planations of Coorg! Visit the Ooty Botanical Gardens for a blissful time mixed with serene beauty of Coorg.",
+    "Day plan":[
+        {
+            "day_1":"14 Mar,Mon",
+            "day_2":"15 Mar,Tue",
+            "day_3":"16 Mar,Wed",
+            "day_4":"17 Mar,Thur"
+        }            
+    ],
+    "Stay":[
+    {
+    "Hotel" :"Deccan Park Resort",
+    "room_type":"Deluxe room",
+    "ammenites":"BreakFast included"
+    
+    }
+            ],
+    "Road_type":[
+        {
+        "name":"Etios, Swift"
+        }
+    ]  ,      
+    "Activity":
+    ["Sightseeing in Ooty: Doddabetta Peak, Sim's Park, Dolphin's Nose, Botanical Grrdens, Ooty Lake",
+      "Sightseeing in coorg: Abbey Falls, Mercara Gold estate Coffee"
+    ],
+    "Images":[
+        "https://i.ibb.co/GQbBcWX/Ooty-holiday.jpg",
+       "https://i.ibb.co/25C0m7P/Ooty-holiday1.png",
+       "https://i.ibb.co/vmNTG23/Ooty-holiday2.png",
+       "https://i.ibb.co/WPqw0zJ/heritage-resort-coorg.jpg",
+       "https://i.ibb.co/L0zYy4z/Coorg1.jpg"
+    ]
+},
+{
+    "id":3,
+    "name":"Amazing Goa Flight Inclusive Deal 3N",
+    "duration":"3N",
+    "from":"kochi",
+    "to":"Goa",       
+    "category_id":5,
+    "cityid":4,
+    "class":"Premium",
+    "guests":"2 ADULTS, 2 children",        
+    "depart":"Mon, Mar 14,2022",
+    "return":"",
+    "price":"₹13,892 perperson",
+    "departtime":"10:00, 14 Mar",
+    "returntime":"15:20, 14 Mar",
+    "hours":"2 hrs 30 min",
+    "travel_mode":"2 Flights",
+    "desc":"A flight and hotel only package. Customize the package from a pool of optional activities to make your holiday memorable! From adventure activities to heritage walks, your beach vacay comes with a host of optional activities.",
+    "Day plan":[
+        {
+            "day_1":"14 Mar,Mon",
+            "day_2":"15 Mar,Tue",
+            "day_3":"16 Mar,Wed",
+            "day_4":"17 Mar,Thur"
+        }            
+    ],
+    "Stay":[
+    {
+    "Hotel" :"Evoke Lifestyle Condolim",
+    "room_type":"Deluxe room",
+    "ammenites":"BreakFast included"
+    
+    }
+            ],
+    "Road_type":[
+        {
+        "name":"Etios, Swift"
+        }
+    ]  ,      
+    "Activity":
+    ["Sightseeing in Goa: Ancestral Goa museum, Basilica de Bom Jesus, Salim Ali Bird Sanctuary"
+    ],
+    "Images":[
+       "https://i.ibb.co/MRF3VT8/Goa-holiday.jpg",
+       "https://i.ibb.co/G93mj79/Goa-holiday2.jpg",
+       "https://i.ibb.co/T4JpnvB/Goa-holiday3.jpg"
+    ]
+},
+{
+    "id":4,
+    "name":"North east Delight-Gangtok,Darjeeling",
+    "duration":"7N/8D",
+    "from":"NewDelhi",
+    "to":"Gangtok,Darjeeling",       
+    "category_id":5,
+    "cityid":1,
+    "class":"Premium",
+    "guests":"2 ADULTS",        
+    "depart":"Mon, Mar 14,2022",
+    "return":"",
+    "price":"₹43,180 per person",
+    "departtime":"10:00, 14 Mar",
+    "returntime":"15:20, 14 Mar",
+    "hours":"2 hrs 30 min",
+    "travel_mode":"2 Flights",
+    "desc":"Photo-shoot in Gangtok | Complimentary Zoomin Photobook | Romantic Candlelit dinner | Toy train ride ",
+    "Day plan":[
+        {
+            "day_1":"6 Mar,Sun",
+            "day_2":"7 Mar,Mon",
+            "day_3":"8 Mar,Tue",
+            "day_4":"9 Mar,Wed",
+            "day_5":"10 Mar,Thur",
+            "day_6":"11 Mar,Fri",
+            "day_7":"12 Mar,Sat",
+            "day_8":"13 Mar,Sun"
+        }            
+    ],
+    "Stay":[
+    {
+    "Hotel" :"Summit Ttakshang Residency Hotel & Spa (MG Marg)",
+    "room_type":"Deluxe room",
+    "ammenites":"BreakFast included"
+    
+    },
+    {
+    "Hotel" :"Summit Newa Regency",
+    "room_type":"Deluxe room",
+    "ammenites":"BreakFast included"
+    
+    },
+    {
+    "Hotel" :"Mount Conifer Suites & Spa (Mall Road)",
+    "room_type":"Deluxe room",
+    "ammenites":"BreakFast included"
+    
+    }
+            ],
+    "Road_type":[
+        {
+        "name":"Wagonar"
+        }
+    ]  ,      
+    "Activity":
+    [" Sightseeing in Gangtok: Changu Lake, Candle Light Dinner Under The Stars (With Transfers),Namgayal Institute of Tibetology,Tashi View Point,The Cottage Industry,Flower Exhibition Centre,Personal Photoshoot in Gangtok,Char Dham"
+    ],
+    "Images":[
+       "https://i.ibb.co/VShjxDS/darjeeling-holiday.jpg",
+       "https://i.ibb.co/Xs11ymv/darjeeling-holiday1.jpg",
+       "https://i.ibb.co/VSJXjpP/darjeeling-holiday2.jpg",
+       "https://i.ibb.co/L5B1Ttb/darjeeling-holiday3.jpg"
+    ]
+},
+{
+    "id":5,
+    "name":"North east Delight-Gangtok,Darjeeling",
+    "duration":"4N/5D",
+    "from":"Bangalore",
+    "to":"Gangtok,Darjeeling",       
+    "category_id":5,
+    "cityid":1,
+    "class":"Premium",
+    "guests":"2 ADULTS, 2 children",        
+    "depart":"Mon, Mar 14,2022",
+    "return":"",
+    "price":"₹33,180",
+    "departtime":"10:00, 14 Mar",
+    "returntime":"15:20, 10 Mar",
+    "hours":"2 hrs 30 min",
+    "travel_mode":"2 Flights",
+    "desc":"Photo-shoot in Gangtok | Complimentary Zoomin Photobook | Toy train ride ",
+    "Day plan":[
+        {
+            "day_1":"6 Mar,Sun",
+            "day_2":"7 Mar,Mon",
+            "day_3":"8 Mar,Tue",
+            "day_4":"9 Mar,Wed",
+            "day_5":"10 Mar,Thur"
+           
+        }            
+    ],
+    "Stay":[
+    {
+    "Hotel" :"Summit Ttakshang Residency Hotel & Spa (MG Marg)",
+    "room_type":"Deluxe room",
+    "ammenites":"BreakFast included"
+    
+    },
+    {
+    "Hotel" :"Summit Newa Regency",
+    "room_type":"Deluxe room",
+    "ammenites":"BreakFast included"
+    
+    },
+    {
+    "Hotel" :"Mount Conifer Suites & Spa (Mall Road)",
+    "room_type":"Deluxe room",
+    "ammenites":"BreakFast included"
+    
+    }
+            ],
+    "Road_type":[
+        {
+        "name":"Wagonar"
+        }
+    ]  ,      
+    "Activity":
+    [" Sightseeing in Gangtok: Changu Lake,Namgayal Institute of Tibetology,Tashi View Point,The Cottage Industry,Flower Exhibition Centre,Personal Photoshoot in Gangtok,Char Dham"
+    ],
+    "Images":[
+        "https://i.ibb.co/VShjxDS/darjeeling-holiday.jpg",
+        "https://i.ibb.co/Xs11ymv/darjeeling-holiday1.jpg",
+        "https://i.ibb.co/VSJXjpP/darjeeling-holiday2.jpg",
+        "https://i.ibb.co/L5B1Ttb/darjeeling-holiday3.jpg"
+    ]
+},
+{
+    "id":6,
+    "name":"Discover Royal Experiences in Agra, Delhi and Jaipur at Taj",
+    "duration":"3N/4D",
+    "from":"Bangalore",
+    "to":"Gangtok,Darjeeling",       
+    "category_id":5,
+    "cityid":1,
+    "class":"Premium",
+    "guests":"2 ADULTS, 2 children",        
+    "depart":"Mon, Mar 6,2022",
+    "return":"",
+    "price":"₹29,290",
+    "departtime":"6:55, 6 Mar",
+    "returntime":"9:45, 9 Mar",
+    "hours":"2 hrs 30 min",
+    "travel_mode":"2 Flights",
+    "desc":" Royal Stay Experience at Taj | Visit Sikandara - the Mausoleum of Emperor Akbar | Visit to Swaminarayan Akshardham, a spiritual-cultural campus in New Delhi | Explore the prominent Monuments of Pink City ",
+    "Day plan":[
+        {
+            "day_1":"6 Mar,Sun",
+            "day_2":"7 Mar,Mon",
+            "day_3":"8 Mar,Tue",
+            "day_4":"9 Mar,Wed"
+           
+        }            
+    ],
+    "Stay":[
+    {
+    "Hotel" :"Taj Palace, New Delhi ",
+    "room_type":"Deluxe room",
+    "ammenites":"BreakFast included"
+    
+    },
+    {
+    "Hotel" :"Summit Newa Regency",
+    "room_type":"Deluxe room",
+    "ammenites":"BreakFast included"
+    
+    },
+    {
+    "Hotel" :"Devi Ratn- IHCL SeleQtions",
+    "room_type":"Luxury room with bed and bathtub",
+    "ammenites":"BreakFast included"
+    
+    }
+            ],
+    "Road_type":[
+        {
+        "name":"Swift, Etios"
+        }
+    ]  ,      
+    "Activity":
+    [" Sightseeing in Delhi: Qutub Minar, Red Fort, India Gate, Rashtapati Bhavan, Sikandara, Taj Mahal,Jantar mandar, Hawa mahal, Amer Fort"
+    ],
+    "Images":[
+       "https://i.ibb.co/B37kF2W/delhi-holiday.jpg",
+       "https://i.ibb.co/t283NLf/delhi-holiday1.jpg",
+       "https://i.ibb.co/v1j3830/delhi-holiday2.jpg"
+    ]
+}]

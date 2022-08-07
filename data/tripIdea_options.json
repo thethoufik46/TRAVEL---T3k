@@ -1,0 +1,34 @@
+
+[
+    {
+        "id":1,
+        "name":"Hill Stations"
+    },
+    {
+        "id":2,
+        "name":"Beaches"
+    },
+    {
+        "id":3,
+        "name":"Historical Monuments"
+    },
+    {
+        "id":4,
+        "name":"HoneyMoon Places"
+    },
+    {
+        "id":5,
+        "name":"Holy places"
+    },
+    {
+        "id":6,
+        "name":"Adventure places"
+    },
+    {
+        "id":7,
+        "name":"Restaurants"
+    },
+    {
+        "id":8,
+        "name":"Peaceful Destinations"
+    }]

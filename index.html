@@ -1,0 +1,324 @@
+<html>
+    <head>
+        <title>t3 - travel</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
+        <link href="home.css" rel="stylesheet" type="text/css"/>
+        <link href="Image/logo.PNG" rel="icon">
+        <link rel="stylesheet" href="home.css">
+        <script src="home.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="Image/logo.PNG" alt="travel" width="40" height="30" class="d-inline-block align-text-top">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item me-2">
+                            <a class="nav-link active" aria-current="page" href="#" style="font-family: Impact;color: rgb(110, 73, 17);">T3 Travel</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="Login/login.html" style="display:float-right;"><i class="fa fa-fw fa-user"></i>Log In</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="Signup/signup.html" style="display:float-right;"><i class="fa fa-fw fa-user"></i>Sign Up</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Location
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">India</a></li>
+                              <li><a class="dropdown-item" href="#">USA</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Other Location</a></li>
+                            </ul>
+                          </li>
+                         
+                        </ul>
+                         <button class="btn btn-outline-secondary" type="button"style="border-radius:10%;width:10%;margin-right:2%" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                          <i class="fa fa-fw fa-search"></i> Search
+                        </button>
+                    </div>
+                    <p id="out"></p>
+                    <div id="icon"></div>
+                    <p id="address"></p>
+                  </nav>
+                  <script>
+                    window.onload = geolocation()                  
+                    var x = document.getElementById("out")
+                    var y = document.getElementById("address")
+                    var z =  document.getElementById('icon')
+                    function geolocation(){
+                        if(navigator.geolocation){
+                            navigator.geolocation.getCurrentPosition(showPosition)
+                        }else{
+                            x.innerText="Geo Not Supported"
+                        }
+                    }
+        
+                    function showPosition(data){
+                        console.log(data)
+                        //x.innerText=`Latitude is ${data.coords.latitude}, longitude is ${data.coords.longitude}`
+                        let lat = data.coords.latitude;
+                        let long = data.coords.longitude
+                        var url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=1&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
+                        /*var url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${data.coords.latitude},${data.coords.longitude}&key=`;
+                        */
+                        fetch(url)
+                        .then((res) => res.json())
+                        .then((data) => {
+                            console.log(data)                 
+                            data.list.map((item) => {
+                                console.log(item.temp.day)
+                                y.innerText=`${item.temp.day}°C and ${item.weather[0].description}`
+                                z.innerHTML=`<img class='card-img-top' src='https://openweathermap.org/img/w/${item.weather[0].icon}.png' alt='weather'/>`
+                            })
+                            
+                        })
+                    }
+                </script>
+                  
+            </div>
+
+        </header>
+
+        <section id="home">
+        <video src="InShot_20220805_150202318.mp4" type="video/mp4" class="video-bg" poster="#" autoplay muted loop
+              preloader="auto" style="position:relative;
+            width:100%; height:auto;" h1>Discover the World</h1>
+            
+            <h3 >Create your memorable vacations with us!!</h3>
+          </video>
+
+                </div>             
+             </div>             
+            </div>
+          </div>
+       </div>
+    </div>
+  </section>
+        <script>
+            window.onload = loadCoupon()
+        </script>
+            
+
+          <div id="canvas">
+            <a class="btn btn-secondary"  data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                Search your Travel options
+              </a>
+              <!-- <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                Button with data-bs-target
+              </button>
+               -->
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div>
+                    Find your best trip mode.
+                  </div>
+                  <div class="dropdown mt-3">
+                    <button class="btn btn-info dropdown-toggle" style="color:white" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                      Choose your Travel option
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <li><a class="dropdown-item" href="Flights/flights.html">Flights</a></li>
+                      <li><a class="dropdown-item" href="Trains/train.html">Trains</a></li>
+                      <li><a class="dropdown-item" href="Bus/bus.html">Buses</a></li>
+                      <li><a class="dropdown-item" href="Hotels/hotel.html">Hotels</a></li>
+                      <li><a class="dropdown-item" href="Holiday_Packages/holiday.html">Holiday Packages</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+        <div id="mainContainer">
+          <div class="container-fluid">
+
+          
+          <center>
+            <div id="offers">
+              <h2> Best Deals and Offers</h2>
+            </br>
+              <center>
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Image/Offer_flight.PNG" class="d-block h-100 w-100" alt="flight offers">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Image/offer_flight1.jpg" class="d-block h-100 w-100" alt="flight offers currently unavailable">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Image/offer_holiday.PNG" class="d-block h-100 w-100" alt="holiday package offers">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Image/hoteloffer.jpg" class="d-block h-100 w-100" alt="hotel offers currently unavailable">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Image/offer_hotel.PNG" class="d-block h-100 w-100" alt="hotel offers currently unavailable">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Image/offer_train.jpg" class="d-block h-100 w-100" alt="train booking offers">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Image/offer_bus.jpg" class="d-block h-100 w-100" alt="bus booking offers currently unavailable">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Image/offer_bus.png" class="d-block h-100 w-100" alt="bus booking offers">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </center>
+            </div>
+          </center>
+          <div class="container-fluid">
+            <div id="tripDestinations">
+              <h2>Trip Ideas - Discover Places & Plan Your Vacations With Us!</h2>
+              <i>Explore top tourist places and plan your next holiday trip with us. Check out places for beach places, hill stations, honeymoon places and many more within your budget to make your holiday memorable.</i>
+      <!-- Trip port -->
+              <div id="cardContainer">
+              <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
+                  <div class="card ">
+                    <img src="Image/hillstations.jpg" class="card-img-top" alt="Hill Stations">
+                    <div class="card-body" >                      
+                      <h5 class="card-title">Hill Stations</h5>
+                      <p class="card-text">Discover the nature lover in you by diving deep into the hill stations and create an epic out of the adventure.</p>
+                      <div id="explore">
+                      <a href="#" class="btn btn-secondary">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
+                  <div class="card " >
+                    <img src="Image/beach.jpg" class="card-img-top" alt="Beaches"  > 
+                    <div class="card-body" >
+                      <h5 class="card-title">Beaches</h5>
+                      <p class="card-text">Does Beach sport activities enthrall you? discover pristine beaches with relishing seafood. See for yourself the mesmerizing view.</p>
+                      <a href="#" class="btn btn-secondary">Explore</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
+                  <div class="card">
+                    <img src="Image/historical_places.jpg" class="card-img-top" alt="Historical_places">
+                    <div class="card-body">                      
+                      <h5 class="card-title">Historical monuments</h5>
+                      <p class="card-text">Visit the famous historically significant heritage sites recognised by UNESCO. With Museums, Ancient caricatures.</p>
+                      <div id="explore">
+                        <a href="#" class="btn btn-secondary">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
+                  <div class="card">
+                    <img src="Image/honeymoon.jpg" class="card-img-top" alt="Honeymoon Destinations">
+                    <div class="card-body">
+                      <h5 class="card-title">HoneyMoon places</h5>
+                      <p class="card-text">Cherish your honeymoon to be the best vacation ever! Explore this beautiful destinations having picturesque hills,solitary beaches, relaxing resorts.</p>
+                   
+                        <a href="#" class="btn btn-secondary">Explore</a>
+                
+                    </div>
+                  </div>
+                </div>
+             
+              
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
+                  <div class="card">
+                    <img src="Image//holyplaces.jpg" class="card-img-top" alt="holyplaces">
+                    <div class="card-body">
+                      <h5 class="card-title">Holy Places</h5>
+                      <p class="card-text">Take a break from your busy routine and seek divine blessings.</p>
+                      <div id="explore">
+                        <a href="#" class="btn btn-secondary">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
+                  <div class="card">
+                    <img src="Image//adventure.jpg" class="card-img-top" alt="Adventure places">
+                    <div class="card-body">
+                      <h5 class="card-title">Adventure Places</h5>
+                      <p class="card-text">Explore the adventure sports, offering you camping,rafting,trekking and much more.</p>
+                      <a href="#" class="btn btn-secondary">Explore</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
+                  <div class="card">
+                    <img src="Image/restaurants.jpg" class="card-img-top" alt="Restaurants">
+                    <div class="card-body">
+                      <h5 class="card-title">Restaurants</h5>
+                      <p class="card-text">Hungry and want to enjoy the best foods from highly rated restaurants. then this one's for you.</p>
+                      <a href="#" class="btn btn-secondary">Explore</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
+                  <div class="card">
+                    <img src="Image//peaceful_places.jpg" class="card-img-top" alt="peaceful_places">
+                    <div class="card-body">
+                      <h5 class="card-title">Peaceful destinations</h5>
+                      <p class="card-text">Love serene beauty? spend your me time. Enjoy gifted nature at a closer view. </p>
+                      <div id="explore">
+                        <a href="#" class="btn btn-secondary">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div id="moreInfo">
+          <h5>QUICK LINKS</h5>
+          <div id="quicklinks">                
+           <a href="Flights/flights.html" target="_blank">Flights search</a>
+           <a href="Trains/train.html" target="_blank">Train search</a>
+           <a href="Bus/bus.html" target="_blank">Bus search</a>
+           <a href="Hotels/hotel.html" target="_blank">Hotel search</a>
+           <a href="Holiday_Packages/holiday.html" target="_blank">Holiday Packages search</a>
+          </div>
+        </div>
+        <div id="desc">
+          <h5>Booking with Travel on the go</h5>
+          <div id="bookings">
+            Booking with Travel on the go offers you the best of the deals and cheap tickets at your convenience.
+            We provide 24/7 booking service with customized experience at affordable rates. 
+          </div>
+        </div>
+        <footer id="footer">
+            <center>
+                <h6>copy right&copy;@ TheThoufik 2022</h6>
+            </center>
+
+        </footer>
+     
+    </body>
+</html>

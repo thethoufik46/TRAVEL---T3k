@@ -1,0 +1,339 @@
+[
+    {
+    "id":1,
+    "category":6,
+    "type":1,
+    "type_name":"Hill Stations",
+    "name":"Kasol",
+    "title":"Mini Israel in Himachal Pradesh",
+    "description":"The hill-hamlet of Kasol stands at over 1,580 meters above sea level, in Himachal Pradesh, and flaunts raw natural beauty with lush conifer forests, snow-capped Himalayan mountains and winding rivers.",
+    "image_gallery":[
+        "https://i.ibb.co/hXm74WV/kasol.jpg",
+        "https://i.ibb.co/zQ7qxLz/kasol1.jpg"
+    ]
+},
+{
+    "id":2,
+    "category":6,
+    "type":1,
+    "type_name":"Hill Stations",
+    "name":"Shimla",
+    "title":"Hub of Natural Bounties and Winter Sports",
+    "description":"The erstwhile British ‘Summer Capital’ is packed with colonial-era architectural marvels, picturesque hilly hotspots, and a toy train tagged as a UNESCO World Heritage Site.",
+    "image_gallery":["https://i.ibb.co/tZxxNL1/Shimla.jpg"]
+},
+
+{
+    "id":3,
+    "category":6,
+    "type":1,
+    "type_name":"Hill Stations",
+    "name":"Wayanad",
+    "title":"Green Paradise in North-East Kerala",
+    "description":"Located on the southern tip of the Deccan plateau, Wayanad is home to clear lakes, dense jungles, and deep valleys. This weekend getaway from Bengaluru, is a paradise for trekkers.",
+    "image_gallery":["https://i.ibb.co/T16PsBr/wayanad.jpg"]
+},
+
+{
+    "id":4,
+    "category":6,
+    "type":1,
+    "type_name":"Hill Stations",
+    "name":"Gulmarg",
+    "title":"Heaven in the White Hills of Kashmir",
+    "description":"Gulmarg is the crowning glory of Jammu & Kashmir and is located 2,650 meters above sea level. Known as the “Meadow of Flowers”, it boasts of the world’s highest golf-course.",
+    "image_gallery":["https://i.ibb.co/XCgRPMg/gulmarg.jpg"]
+},
+
+{
+    "id":5,
+    "category":6,
+    "type":1,
+    "type_name":"Hill Stations",
+    "name":"Coonoor",
+    "title":"A Serene Hill Station in Tamil Nadu",
+    "description":"Gulmarg is the crowning glory of Jammu & Kashmir and is located 2,650 meters above sea level. Known as the “Meadow of Flowers”, it boasts of the world’s highest golf-course.",
+    "image_gallery":["https://i.ibb.co/wzGMQ9S/Coonoor.jpg"]
+},
+
+{
+    "id":6,
+    "category":6,
+    "type":2,
+    "type_name":"Beaches",
+    "name":"Goa",
+    "title":"Popular for Beaches & Nightlife",
+    "description":"Popularly known as India’s party capital, Goa seduces travellers from all around the globe with its boho beaches, ancient churches, majestic forts and unbeatable nightlife!",
+    "image_gallery":["https://i.ibb.co/MRF3VT8/Goa-holiday.jpg"]
+},
+
+{
+    "id":7,
+    "category":6,
+    "type":2,
+    "type_name":"Beaches",
+    "name":"Maldives",
+    "title":"A Stunning Tropical Getaway",
+    "description":"Home to sun-kissed beaches, swaying palms, sculpted coral reefs, luxury resorts and thrilling water sports, the tropical paradise called Maldives is a string of beautiful islands.",
+    "image_gallery":["https://i.ibb.co/bvs4HvB/Maldives.jpg"]
+},
+
+{
+    "id":8,
+    "category":6,
+    "type":2,
+    "type_name":"Beaches",
+    "name":"Lakshadweep",
+    "title":"Tropical Band of Islands",
+    "description":"Settled off the Kerala coast on Laccadive sea, Lakshadweep translates to ‘a hundred thousand islands’. A club of 36 atolls and coral reefs, the nature tourism destination is known for preserved ecology and water sports.",
+    "image_gallery":["https://i.ibb.co/2hFVDW9/Lakshadweep.jpg"]
+},
+{
+    "id":9,
+    "category":6,
+    "type":2,
+    "type_name":"Beaches",
+    "name":"Pondicherry",
+    "title":"Tropical Band of Islands",
+    "description":"A fascinating, small town with enough elements to charm its visitors, Pondicherry whose official name was changed to Puducherry in 2006, was once the largest French colony in India.",
+    "image_gallery":["https://i.ibb.co/M87f5RM/pondicherry.jpg"]
+},
+
+{
+    "id":10,
+    "category":6,
+    "type":2,
+    "type_name":"Beaches",
+    "name":"Kovalam",
+    "title":"Scenic Beach Town in Kerala",
+    "description":"Dotted with swaying palms and fondly known as the 'Paradise of the South', Kovalam is a tranquil seaside town nestled along the picturesque coastlines of the Arabian Sea.",
+    "image_gallery":["https://i.ibb.co/wNmgrHm/kovalam.jpg"]
+},
+
+{
+    "id":11,
+    "category":6,
+    "type":3,
+    "type_name":"Historical Monuments",
+    "name":"Gwalior",
+    "title":"The Land of Palaces",
+    "description":"As the cradle of Indian culture and heritage for many centuries, Gwalior is a timeless treasure of art and music. The cityscape is adorned with historical monuments and a hilltop fort that are souvenirs of the dynasties that ruled here. ",
+    "image_gallery":["https://i.ibb.co/yVwPF4D/gwalior.jpg"]
+},
+
+{
+    "id":12,
+    "category":6,
+    "type":3,
+    "type_name":"Historical Monuments",
+    "name":"Thimpu",
+    "title":"Scenic mountain destination in Bhutan",
+    "description":"Thimpu will fascinate you with its rich heritage. you will love lively festivals, lush valley. Also popular wildlife destination.",
+    "image_gallery":["https://i.ibb.co/pjqx3TX/Thimpu.jpg"]
+},
+{
+    "id":13,
+    "category":6,
+    "type":3,
+    "type_name":"Historical Monuments",
+    "name":"Mysore",
+    "title":"Scenic royal city in Karnataka",
+    "description":"City of Palaces with its vibrant history , arts and culture. Allures tourists with its majestic beauty, landscaped gardens",
+    "image_gallery":["https://i.ibb.co/x87srzG/Mysore.jpg"]
+},
+{
+    "id":14,
+    "category":6,
+    "type":3,
+    "type_name":"Historical Monuments",
+    "name":"Hampi",
+    "title":"Open Air museuam in Karnataka",
+    "description":"UNESCO recognised world heritage site. Attracts backpackers and pilgrims alike to witness its forts and temples.",
+    "image_gallery":["https://i.ibb.co/m4cfRgF/hampi.jpg"]
+},
+{
+    "id":15,
+    "category":6,
+    "type":3,
+    "type_name":"Historical Monuments",
+    "name":"Kochi",
+    "title":"Open port city in Kerala",
+    "description":"City steeped in heritage. It hosts many beaches worth exploring. With hot and humid weather. ",
+    "image_gallery":["https://i.ibb.co/Phpv05v/kochi.jpg"]
+},
+{
+    "id":16,
+    "category":6,
+    "type":4,
+    "type_name":"Honeymoon Places",
+    "name":"Havelock island",
+    "title":"Picturesque tropical Gateway in Andamans",
+    "description":"Celebrate your love in havelock islands. Offers you lots of adventurous activities ",
+    "image_gallery":["https://i.ibb.co/VTdpJ6y/havelock-islands.jpg"]
+},
+{
+    "id":17,
+    "category":6,
+    "type":4,
+    "type_name":"Honeymoon Places",
+    "name":"Srinagar",
+    "title":"Paradise on the banks of Jhelam",
+    "description":"Dreamy honeymoon with endless sightseeing and lively festivals.",
+    "image_gallery":["https://i.ibb.co/k0zVjvC/srinagar.jpg"]
+},
+{
+    "id":18,
+    "category":6,
+    "type":4,
+    "type_name":"Honeymoon Places",
+    "name":"Manali",
+    "title":"Say hello to hippie valleys and scenic villages",
+    "description":"Enjoy your honeymoon days with  many adventureous sports and waterfalls.",
+    "image_gallery":["https://i.ibb.co/88tzMpz/manali.jpg"]
+},
+{
+    "id":19,
+    "category":6,
+    "type":4,
+    "type_name":"Honeymoon Places",
+    "name":"Munnar",
+    "title":"Exotic Tea Paradise in Kerala",
+    "description":"Spend your romatic days at Munnar. A wildlife destination with pleasant weather throuhout the day",
+    "image_gallery":["https://i.ibb.co/yhQFxZp/munnar.jpg"]
+},
+{
+    "id":20,
+    "category":6,
+    "type":4,
+    "type_name":"Honeymoon Places",
+    "name":"Goa",
+    "title":"Popular homeymoon destination with beaches and nightlife",
+    "description":"Head to Goa for romantic honeymoon. Enjoy the breeze and indulge in adventure activies in Goa",
+    "image_gallery":["https://i.ibb.co/MRF3VT8/Goa-holiday.jpg"]
+},
+{
+    "id":21,
+    "category":6,
+    "type":5,
+    "type_name":"Holy Places",
+    "name":"Amritsar",
+    "title":"Spiritual capital of Punjab",
+    "description":"Soak in the mystic hues of Amritsar, a famous pilgrimage spot! You will love exploring sightseeing attractions and attending various festivals. The local cuisines at Amritsar are worth trying out too.",
+    "image_gallery":["https://i.ibb.co/PML408Y/anritsar.jpg"]
+},
+{
+    "id":22,
+    "category":6,
+    "type":5,
+    "type_name":"Holy Places",
+    "name":"Guwahati",
+    "title":"Assam's largest city",
+    "description":"Located on the banks of River Brahmaputra against the backdrop of mighty Himalayan Ranges, Guwahati will steal your heart with its magnificent ancient temples, stunning hills, diverse wildlife and sprawling tea plantations.",
+    "image_gallery":["https://i.ibb.co/7XDgGxz/Guwahati.jpg"]
+},
+{
+    "id":23,
+    "category":6,
+    "type":5,
+    "type_name":"Holy Places",
+    "name":"Rameshwaram",
+    "title":"Pilgrimage site in Tamil Nadu",
+    "description":"Rameshwaram glistens with sheer divinity. You can expect sunny afternoons with bearable heat. Don’t forget to spend some time at the beaches of Rameshwaram.",
+    "image_gallery":["https://i.ibb.co/893HGYj/Rameshwaram.jpg"]
+},
+{
+    "id":24,
+    "category":6,
+    "type":6,
+    "type_name":"Adventure Spots",
+    "name":"Dubai",
+    "title":"Ultramodern state in UAE",
+    "description":"A mix of the modern living and traditional Arabic culture, Dubai is all things glittery with luxury malls, charming souks, cutting-edge clubs, gourmet restaurants and old-world eateries.",
+    "image_gallery":["https://i.ibb.co/pvWsY2G/Dubai.jpg"]
+},
+{
+    "id":25,
+    "category":6,
+    "type":6,
+    "type_name":"Adventure Spots",
+    "name":"Singapore",
+    "title":"Complete family destination",
+    "description":"Unleash the adventure enthusiast in you at Singapore. You can expect moderate temperatures along with humidity. Singapore is also a popular wildlife destination.",
+    "image_gallery":["https://i.ibb.co/b3RQ7WK/Singapore1.jpg"]
+},
+
+{
+    "id":26,
+    "category":6,
+    "type":6,
+    "type_name":"Adventure Spots",
+    "name":"Kasol",
+    "title":"Mini Israel in Himachal Pradesh",
+    "description":"The hill-hamlet of Kasol stands at over 1,580 meters above sea level, in Himachal Pradesh, and flaunts raw natural beauty with lush conifer forests, snow-capped Himalayan mountains and winding rivers.",
+    "image_gallery":[
+        "https://i.ibb.co/hXm74WV/kasol.jpg",
+        "https://i.ibb.co/zQ7qxLz/kasol1.jpg"
+    ]
+},
+
+{
+    "id":27,
+    "category":6,
+    "type":7,
+    "type_name":"Restaurants",
+    "name":"Bangkok",
+    "title":"Dynamic city of Thailand",
+    "description":"Come and relish the culinary delights of Bangkok. You can expect high temperatures and humidity. Also, don’t miss the heritage structures at Bangkok.",
+    "image_gallery":["https://i.ibb.co/HXgLxQY/bangkok.jpg"]
+},
+    
+{
+    "id":28,
+    "category":6,
+    "type":7,
+    "type_name":"Restaurants",
+    "name":"Tokyo",
+    "title":"Bustling metrolpolis in Japan",
+    "description":"Tokyo is a haven for foodies. You will love the stunning cherry blossoms, fairs and festivals. Additionally, explore the rich heritage of Tokyo.",
+    "image_gallery":["https://i.ibb.co/x80Fz8W/Tokyo.jpg"]
+},
+{
+    "id":29,
+    "category":6,
+    "type":7,
+    "type_name":"Restaurants",
+    "name":"Hyderabad",
+    "title":"City of Pearls",
+    "description":"If you are a foodie, head straight to Hyderabad. You will love visiting historical monuments, going on city tours and shopping from vibrant markets. You can also admire the heritage landmarks at Hyderabad.",
+    "image_gallery":["https://i.ibb.co/8X890vK/Hyderabad.jpg"]
+},
+{
+    "id":30,
+    "category":6,
+    "type":8,
+    "type_name":"Peaceful destinations",
+    "name":"Alleppey",
+    "title":"Nature lover's paradise in Kerala",
+    "description":"If relaxation is what you’re after, head to Alleppey. You will love exploring the backwaters and houseboat stays. Don’t forget to spend some time at the beaches of Alleppey.",
+    "image_gallery":["https://i.ibb.co/nCXrTdQ/Alleppey.jpg"]
+},
+{
+    "id":31,
+    "category":6,
+    "type":8,
+    "type_name":"Peaceful destinations",
+    "name":"Maldives",
+    "title":"A Stunning Tropical Getaway",
+    "description":"Home to sun-kissed beaches, swaying palms, sculpted coral reefs, luxury resorts and thrilling water sports, the tropical paradise called Maldives is a string of beautiful islands.",
+    "image_gallery":["https://i.ibb.co/bvs4HvB/Maldives.jpg"]
+},
+{
+    "id":32,
+    "category":6,
+    "type":8,
+    "type_name":"Peaceful destinations",
+    "name":"Lakshadweep",
+    "title":"Tropical Band of Islands",
+    "description":"Settled off the Kerala coast on Laccadive sea, Lakshadweep translates to ‘a hundred thousand islands’. A club of 36 atolls and coral reefs, the nature tourism destination is known for preserved ecology and water sports.",
+    "image_gallery":["https://i.ibb.co/2hFVDW9/Lakshadweep.jpg"]
+}]

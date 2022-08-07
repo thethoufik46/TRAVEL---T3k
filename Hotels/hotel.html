@@ -1,0 +1,304 @@
+<html>
+    <head>
+        <title>
+            Travel on the Go Hotel search
+        </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href="hotel.css" rel="stylesheet" type="text/css"/>
+        <script src = "hotel.js"></script>
+    </head>
+    <body>
+        <header>
+            <!-- <div id="nav">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="../Image/logo.PNG" alt="travel" width="40" height="30" class="d-inline-block align-text-top">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item me-2">
+                            <a class="nav-link active" aria-current="page" href="#" style="font-family: Impact;color: rgb(110, 73, 17);">Travel on the Go</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#" style="display:float-right;">Log In</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#" style="display:float-right;">Sign Up</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Location
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">India</a></li>
+                              <li><a class="dropdown-item" href="#">USA</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Other Location</a></li>
+                            </ul>
+                          </li>
+                         
+                        </ul>
+                     
+                      </div>
+                    </div>
+                  </nav> -->
+                  
+            </div>
+
+        </header>
+        <div class="menu">
+          <nav class="navbar fixed-top navbar" style="background-color: rgb(6, 6, 36);">
+         
+            
+            <div class="search">
+              <div class= row>
+                <div class="col md 4">
+                  <a class="navbar-brand" href="#">
+                    <img src="../Image/logo.PNG" alt="travel" width="40" height="30" class="d-inline-block align-text-top">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+                <div class="col md 4">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item me-2">
+                        <a class="nav-link active" aria-current="page" href="#" style="font-family: Impact;color: rgb(110, 73, 17);">Travel on the Go</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#" style="display:float-right;">Log In</a>
+                      </li>
+                      </ul>
+                    </div>
+                  </div>
+            
+  
+              </div>
+            </br>
+
+              <div class="row">               
+                 
+                <div class="col md 2">
+                  <div class="menuitem">
+                    <div class="input-group mb-3">                 
+                      <select id="from" class="form-select" aria-label="Example select with button addon">
+                        <option selected>CITY...</option>
+                        <!-- <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option> -->
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <script>
+                  window.onload = getDestination()
+                </script>
+              
+
+                <div class="col md 2">
+                  <div class="menuitem">
+                    <div class="input-group mb-3">   
+                      <!-- <label for="depart">DEPART</label>   -->
+                               
+                      <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                        <option selected>CHECK-IN...</option>
+                        <label for="depart">CHECK-IN</label> 
+                        <option value="1"><input type="date" id="depart" name="depart"> </option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col md 2">
+                    <div class="menuitem">
+                      <div class="input-group mb-3">   
+                        <!-- <label for="depart">DEPART</label>   -->
+                                 
+                        <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                          <option selected>CHECK-OUT...</option>
+                          <label for="depart">CHECK-OUT</label> 
+                          <option value="1"><input type="date" id="depart" name="depart"> </option>
+                          
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col md 2">
+                    <div class="menuitem">
+                      <div class="input-group mb-3"> 
+                        <span for="label" class="passengersandclasses" style="color:white;">ROOMS & GUESTS</span>
+                        <input id="passengersandclasses" type="text" class="passenger">
+                       </div> 
+                  </div>
+                  </div>               
+                
+                <div class="col md 2">
+                  <div class="menuitem">                    
+                    <button type="button" class="btn btn-primary" style="border-radius: 45%; font-weight: bold;width:60%" onClick="getHotels()"><i class="fa fa-fw fa-search"></i> SEARCH</button>                 
+                  </div>
+                </div>              
+             
+            
+              
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="maincontainer">  
+          <div class="heading">
+            
+              <h1 style="margin-left: 5%;padding-top: 3%;">Hotels, Resorts and more</h1>
+          
+          </div>
+            <div class="filter">
+              <h4>Popular Filters</h4>
+            </br>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Free BreakFast
+                </label>              
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Free Cancellation
+                </label>              
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Breakfast and Dinner
+                </label>              
+              </div>
+            
+            </br>
+            <h5>Price</h5>
+          
+            
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+             ₹0 - ₹5000
+            </label>              
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+            ₹5000 - ₹9500
+            </label>              
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+            ₹9500 - ₹28000
+            </label>              
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+            ₹28000 - ₹30000
+            </label>              
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+            ₹30000+
+            </label>              
+          </div>
+
+          </br>
+              <h5>Star Category</h5>
+        
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                 5 star
+                </label>              
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                 4 star
+                </label>              
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                others
+                </label>              
+              </div>
+
+            </br>
+                    <h5>User Rating</h5>              
+                    
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    4.5 & above(Excellent)
+                    </label>              
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    4.0 & above(Very Good)
+                    </label>              
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    3.5 & above(Good)
+                    </label>              
+                </div>
+                </br>
+                        <h5>Facilites</h5>               
+                    
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    Swimming Pool
+                    </label>              
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    Wi-Fi
+                    </label>              
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    Spa
+                    </label>              
+                </div>
+                        
+                        
+            
+            </div>
+            <div class="filtercontent">
+              <h3 style="font-weight: bold;padding-top: 2%;">Recommended for You</h3>
+            </br>
+              
+              <div id="display">
+                
+              </div>
+            
+            </div>
+           
+            </div>
+        </div>  
+        <script>
+          window.onload = getAllHotels();
+        </script>
+       
+            
+    </body>
+</html>

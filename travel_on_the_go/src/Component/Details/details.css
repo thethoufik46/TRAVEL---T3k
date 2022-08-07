@@ -1,0 +1,163 @@
+.menu{
+    height:40%;
+    width:100%;
+   
+}
+.search
+{
+  
+    margin-left: 2%;
+   display: inline-block;
+}
+.menuitem
+{
+    margin-top: 5%;
+    margin-left: 2%;
+    
+    
+}
+
+
+.maincontainer2{
+    height:100%;
+    width:100%;
+    margin-top: 10%;
+  
+  
+        
+}
+.filter2
+{   margin-top: 3%;
+    padding-right: 2%;
+    padding:2%;
+    width:20%;        
+    margin-right: 5%;   
+    
+    background-color: white;
+    float:right;
+    box-sizing: border-box;
+    padding-bottom: 7%; 
+    
+
+}
+
+.filtercontent2
+{   margin-top: -27%;
+    padding-left: 5%;
+    width:60%;   
+    margin-right: 20%;    
+    font-weight:bold;
+    float:left;
+    /* background-color: white;  */
+    box-sizing: border-box; 
+    display:block; 
+    position:absolute;
+    margin-bottom: 5%;
+ 
+
+}
+.cancel
+{  padding-top:0%;
+    padding-left: 5%;
+    width:60%;   
+    margin-right: 20%;    
+    font-weight:bold;
+    float:left;
+    /* background-color: white;  */
+    box-sizing: border-box; 
+    display:block; 
+    position:absolute;
+ 
+
+}
+.Information
+{  padding-top:50%;
+    padding-left: 5%;
+    width:60%;   
+    margin-right: 20%;  
+    
+    
+    float:left;
+    /* background-color: white;  */
+    box-sizing: border-box; 
+    display:block; 
+    position:absolute;
+ 
+
+}
+.traveller
+{  
+  
+    width:80%;   
+   margin-top: 15%;;
+    padding-left: 5%;
+    float:left;
+    /* background-color: white;  */
+    box-sizing: border-box; 
+    display:block; 
+    position:absolute;
+ 
+
+}
+.card2
+{
+    margin-bottom: 2%;
+    border-radius: 2%;
+    box-shadow: 10px 10px 10px gray;
+}
+.heading{
+    width:100%;
+    height:20%;
+    background-color: rgb(187, 231, 255);
+    position:relative;
+    margin-top: -7%;
+    font-family:Georgia;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 600px) {
+   
+    .filter{      
+        
+      
+        margin-top: 10%;           
+    
+    }
+    .filtercontent   {
+       
+        width:fit-content;
+        margin-left:5% ;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+   
+    .filter{
+       
+     
+        margin-top: 15%;
+    
+    }
+    .filtercontent
+    {
+        width:fit-content;
+        margin-left:5% ;
+    }
+  }
+
+  @media screen and (max-width: 390px) {
+   
+    .filter{
+       
+       
+        margin-top: 30%;
+    
+    }
+    .filtercontent
+    {
+        width:fit-content;
+        margin-left:5% ;
+    }
+  }
